@@ -1,35 +1,14 @@
-## Branch
+# Branches
 
 [Sign In 01](https://github.com/janzenfaidiban/sign-in-bootstrap5/tree/sign-in-01)
 
 [Sign In 02](https://github.com/janzenfaidiban/sign-in-bootstrap5/tree/sign-in-02)
 
-## GIT BRANCH COMMANDS
 
-To show all branches
+## SIGN IN 01
 
-    git branch
+![Screenshot](https://github.com/janzenfaidiban/sign-in-bootstrap5/blob/sign-in-01/final-sign-in-1.png?raw=true)
 
-Creating a new branch while switched to new branchname
-    
-    git checkout -b branchname
+## SIGN IN 02
 
-Create new branch without switched
-
-    git branch branchname
-
-Swhitching to another branch
-
-    git checkout branchname
-
-Push local branch to GitHub
-
-    git push -u origin branchname
-
-Push all branches to GitHub
-
-    git push --all -u
-
-Delete branch
-
-	git branch --delete branchname
+![Screenshot](https://github.com/janzenfaidiban/sign-in-bootstrap5/blob/sign-in-02/final-sign-in-2.png?raw=true)
