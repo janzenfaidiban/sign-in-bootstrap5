@@ -1,49 +1,57 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Sign In</title>
+	<title>Sign In 02</title>
 	<!-- CSS only -->
 	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
 </head>
 <body class="bg-dark">
 
-	<!-- content -->
-	<div class="row">
-		
-		<div class="col-xl-4 col-lg-6 col-md-8 col-sm-8 mx-auto bg-light my-5 p-5 rounded shadow border">
+	<!-- container -->
+	<div class="container my-5 shadow">
+		<!-- content -->
+		<div class="row">
 
-			<div class="text-center mb-5">
-				<h1 class="fw-bolder display-1">Sign In</h1>
-				<p class="text-secondary">Type your username and password!</p>
-			</div>
-
-			<!-- form -->
-			<form>
+			<div class="col-lg-6 p-0 flex-fill rounded-start" style="background-image: url('./img.png')">
 				
-				<div class="mb-3">
-					<label for="username" class="form-label text-secondary">Username</label>
-					<input type="text" id="username" class="form-control form-control-lg" placeholder="Type username">
+			</div>
+			
+			<div class="col-lg-6 p-5 flex-fill bg-light rounded-end">
+
+				<div class="text-center mb-5">
+					<h1 class="fw-bolder display-1">Sign In</h1>
+					<p class="text-secondary">Type your username and password!</p>
 				</div>
 
-				<div class="mb-3">
-					<label for="password" class="form-label text-secondary">Password</label>
-					<input type="password" id="password" class="form-control form-control-lg" placeholder="Type password">
-				</div>
+				<!-- form -->
+				<form>
+					
+					<div class="mb-3">
+						<label for="username" class="form-label text-secondary">Username</label>
+						<input type="text" id="username" class="form-control form-control-lg" placeholder="Type username">
+					</div>
 
-				<div class="mb-3 d-grid">
-					<input type="submit" value="Sign In" class="btn btn-primary btn-lg">
-				</div>
+					<div class="mb-3">
+						<label for="password" class="form-label text-secondary">Password</label>
+						<input type="password" id="password" class="form-control form-control-lg" placeholder="Type password">
+					</div>
 
-				<hr class="opacity-10">
+					<div class="mb-3 d-grid">
+						<input type="submit" value="Sign In" class="btn btn-primary btn-lg">
+					</div>
 
-				<p>Don't have account? <a href="#" class="fw-bolder">Sign Up</a></p>			
+					<hr class="opacity-10">
 
-			</form>
-			<!-- end form -->
+					<p>Don't have account? <a href="#" class="fw-bolder">Sign Up</a></p>			
 
+				</form>
+				<!-- end form -->
+
+			</div>
 		</div>
+		<!-- end content -->
 	</div>
-	<!-- end content -->
+	<!-- end container -->
 
 	<!-- footer -->
 	<div class="row">
